@@ -4,4 +4,4 @@ def average(values):
         moy += value
     moy = moy/len(values)
     
-    return moy
+    return moy+1
