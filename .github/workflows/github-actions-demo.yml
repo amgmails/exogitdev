@@ -16,3 +16,4 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - uses: actions/checkout@v2
+      - run: job.py
